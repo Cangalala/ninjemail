@@ -4,7 +4,7 @@ from .ninjemail_manager import Ninjemail
 ninja = Ninjemail(
     		browser="undetected-chrome",
     		captcha_keys={"capsolver": "CAP-484787CB1A1AA5E90B97306FD43F84FC"},
-    		sms_keys={"getsmscode": {"user": "USERNAME", "token": "TOKEN"}},
+    		sms_keys={"getsmscode": {"user": "mr.assesin2020@gmail.com", "token": "TOKEN"}},
 			auto_proxy=True)
 email, password = ninja.create_outlook_account(
     					username="testuser", 
