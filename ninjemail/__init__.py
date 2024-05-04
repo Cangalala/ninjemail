@@ -1,4 +1,4 @@
-from ninjemail import Ninjemail
+from .ninjemail_manager import Ninjemail
 
 # Replace "YOUR_API_KEY", "USERNAME" and "TOKEN" with your actual keys
 ninja = Ninjemail(
